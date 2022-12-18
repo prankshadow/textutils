@@ -36,3 +36,18 @@
     transform: rotate(360deg);
   }
 }
+
+/* Footer */
+
+.footerBottom {
+  margin-top: 40rem;
+}
+
+.socialIcon a {
+  color: inherit;
+  text-decoration: none;
+}
+
+.socialIcon a:hover{
+  color: #FF013C;
+}
