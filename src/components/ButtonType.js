@@ -4,7 +4,10 @@ import Button from 'react-bootstrap/Button';
 function ButtonType(props) {
     return(
         <>
-            <Button onClick={props.onClick} variant={props.variant}>{props.name}</Button>{' '}
+            <Button className={props.className} 
+            disabled={props.disabled}
+            onClick={props.onClick} 
+            variant={props.variant}>{props.name}</Button>{' '}
         </>
     );
 }
